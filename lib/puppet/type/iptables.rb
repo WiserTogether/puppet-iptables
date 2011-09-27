@@ -24,9 +24,9 @@ module Puppet
   @@finalized = false
 
   # pre and post rules are loaded from files
-  # pre.iptables post.iptables in /etc/puppet/iptables
-  @@pre_file  = "/etc/puppet/iptables/pre.iptables"
-  @@post_file = "/etc/puppet/iptables/post.iptables"
+  # pre.iptables post.iptables in /etc/puppet
+  @@pre_file  = "/etc/puppet/pre.iptables"
+  @@post_file = "/etc/puppet/post.iptables"
 
   # location where iptables binaries are to be found
   @@iptables_dir = "/sbin"
