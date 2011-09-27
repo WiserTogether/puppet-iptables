@@ -1,0 +1,3 @@
+<% allowed_ips.each do |ip| -%>
+-A INPUT -j ACCEPT --source <=% ip %> --proto any --dport <%= allowed_post %>
+<% end -%>
